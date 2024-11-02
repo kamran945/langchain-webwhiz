@@ -86,7 +86,6 @@ def create_main_content():
     if user_input:
         chain = get_retrieval_chain(vectorstore_filepath=vectorstore_filepath)
         result = get_answer_and_source(question=user_input, chain=chain)
-        print(result)
         st.header("Answer")
         st.write(result["answer"])
 

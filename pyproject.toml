@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "webwhiz"
+name = "langchain-webwhiz"
 version = "0.1.0"
 description = "Allows the user to provide a list of website links and the lets the user interact with an AI Assistant regarding the information contained on those pages."
 authors = ["kamran945 <kamran945@gmail.com>"]
